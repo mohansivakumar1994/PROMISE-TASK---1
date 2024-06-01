@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form(PROJECT 2)</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/jpeg;base64,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"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <div class="form">
+      <section class="fullname">
+        <label class="name" for="name" aria-required="true"> Name</label>
+        <br />
+        <input class="textbox" type="text" id="name" />
+        <input class="textbox" type="text" id="name" />
+        <br />
+        <label class="text" for="first">First</label
+        ><label class="text" for="last">Last</label>
+      </section>
+      <br />
+      <section class="emailbox">
+        <label class="name email" for="email">Email</label>
+        <br />
+        <input class="textbox email" type="text" id="name" />
+      </section>
+      <section class="experiencebox">
+        <br />
+        <label class="name experience" for="exp">Your Experience</label>
+        <br />
+        <!-- <i class="fa fa-star" aria-hidden="true" style="font-size: xx-large"></i> -->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <br />
+        <p>Overall, how would rate you experience with us.</p>
+      </section>
+      <span class="required"><b>How satisfied are you with</b></span><br>
+      <table class="one">
+        <tr>
+        <th></th>
+        <th >Bad</th>
+         <th>Unsatisfied</th>
+        <th>Neutral</th>
+        <th>Satisfied</th>
+        <th>Good</th>
+        </tr>
+        <tr>
+        <td class="t">Purchase</td>
+        <td ><input type="radio" name="purchase"></td>
+        <td><input type="radio" name="purchase"></td>
+        <td><input type="radio" name="purchase"></td>
+        <td><input type="radio" name="purchase"></td>
+        <td><input type="radio"name="purchase"></td>
+        </tr>
+        <tr>
+        <td class="t">Sales</td>
+        <td><input type="radio" name="service"></td>
+        <td><input type="radio" name="service"></td>
+        <td><input type="radio" name="service"></td>
+        <td><input type="radio" name="service"></td>
+        <td><input type="radio" name="service"></td>
+        </tr>
+        <tr>
+        <td class="t">Service</td>
+        <td><input type="radio" name="overall"></td>
+        <td><input type="radio"  name="overall"></td>
+        <td><input type="radio"  name="overall"></td>
+        <td><input type="radio"  name="overall"></td>
+        <td><input type="radio"  name="overall"></td>
+        </tr>
+       
+      <!-- </table><br> -->
+
+      <td> <br><span class="required float-md-start  "><b>How likely are you to</b></span><br> </td>
+      <table class="two">
+        <tr>
+        <th></th>
+        <th>Very Unlikely</th>
+        <th>Unlikely</th>
+        <th>Neutral</th>
+        <th>likely</th>
+        <th>Very likely</th>
+        </tr>
+        <tr>
+        <td class="t">Buy from us again </td>
+        <td><input type="radio" name="Buy from us again"></td>
+        <td><input type="radio" name="Buy from us again"></td>
+        <td><input type="radio" name="Buy from us again"></td>
+        <td><input type="radio" name="Buy from us again" ></td>
+        <td><input type="radio" name="Buy from us again"></td>
+        </tr>
+        <tr>
+        <td class="t">Recommend our <br> Product to others </td>
+         <td><input type="radio" name="Product to others"></td>
+        <td><input type="radio" name="Product to others"></td>
+        <td><input type="radio" name="Product to others"></td>
+        <td><input type="radio" name="Product to others"></td>
+        <td><input type="radio" name="Product to others"></td>
+        </tr>
+        <tr>
+        <td class="t">Recommend our <br>  Company to others </td>
+        <td><input type="radio" name="Company to others"></td>
+        <td><input type="radio" name="Company to others"></td>
+        <td><input type="radio" name="Company to others"></td>
+        <td><input type="radio" name="Company to others"></td>
+        <td><input type="radio" name="Company to others"></td>
+        </tr>
+      </table><br>
+    <section class="add-or suggestions">
+      <label class=" name suggestions mt-4  mb-3 " for="feedback2">Additional comments or suggestions</label>
+      <br>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+      </div>
+      
+      <button class="submit">Submit</button>
+     
+    </section>
+    
+
+      
+    </div>
+  </body>
+</html>

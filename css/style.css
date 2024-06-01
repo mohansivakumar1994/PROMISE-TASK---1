@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    border: 1px solid #EAEAEA ;
+    font-family: "Roboto", sans-serif ;
+    padding: 16px 16px ;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.name{
+    font-weight: bold;
+}
+   
+.name::after,.required::after{
+    content: "*";
+    color: red;
+  
+}
+
+
+
+.textbox{
+    height: 25px;
+    padding: 2px;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    
+}
+.email{
+    width: 380px;
+}
+
+.text{
+    display: inline;
+    margin-left: auto;
+    margin-right: 10.2rem;
+       
+}
+
+i{
+    color: #EEAC82;
+    margin-bottom: 10px;
+    font-size: xx-large !important;
+
+}
+
+.odd {
+    justify-content: center;
+    margin-right: 30%; 
+}
+
+  .one,.two{
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  
+  th{
+    text-align: center;
+    padding: 8px;
+
+  }
+ 
+ td {
+    text-align: center;
+    padding: 8px;
+
+    
+  }
+  .t{
+    display: flex;
+    justify-content: flex-start !important;
+  }
+  tr:nth-child(even) {
+    background-color: red;
+  } 
+
+  .submit{
+    display: flex;
+    align-items: center;
+    border: 1px solid #E1E1E1;
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px;
+    
+
+}
+/* For screens up to 300px */
+@media (max-width: 300px) {
+  /* Your CSS styles here */
+}
+
+/* For screens between 301px and 600px */
+@media (min-width: 301px) and (max-width: 600px) {
+  /* Your CSS styles here */
+}
+
+/* For screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Your CSS styles here */
+}
+
+/* For screens above 900px */
+@media (min-width: 901px) {
+  /* Your CSS styles here */
+}
+
